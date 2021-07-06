@@ -1,6 +1,12 @@
 # Patent-title-abstract-word-vectors
+
 Download Link (Skipgram trained model, word vectors, training information included):
+
+https://drive.google.com/file/d/1FJqwK_eV4h-C9vz2Us_0esMzOdh40sm3/view?usp=sharing
+
 Download Link (Continuous Bag of Words (CBOW) trained model, word vectors, training information included):
+
+
 In this project, I trained a skip-gram model with negative sampling on the text corpus consisting of all the title + abstraction texts of all patents that exist in the Patentview database (up to 2021). The training procedure (including codes) is outlined in the Word_embedding.py. 
 
 Simplistic intro to the Skipgram model with negative sampling (Mikolov et al. 2013):
