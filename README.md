@@ -8,7 +8,7 @@ In mathematical notation, given any pair of word c and t and $y := \mathbb{I} (\
 $$\mathbb{P} (y = 1 | c, t) = \sigma(\bf{\theta}_t^T \bf{e_c})$$
 Using appropriate cost function and gradient descent, we train the model and keep the $\bf{e}_c$ as word vectors.
 
-The hyperparameters setting of Li et al (2018). A simple evaluation based on cosine similarity shows that similar words are close in the vector space. (See Apendix A for for examples)
+The hyperparameters setting of Li et al (2018). A simple evaluation based on cosine similarity shows that similar words are close in the vector space. (See Word vectors evaluations.ipynb)
 
 Li, Shaobo, et al. "DeepPatent: patent classification with convolutional neural networks and word embedding." Scientometrics 117.2 (2018): 721-744.
 Mikolov, Tomas, et al. "Distributed representations of words and phrases and their compositionality." arXiv preprint arXiv:1310.4546 (2013a).\\
